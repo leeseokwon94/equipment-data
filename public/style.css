@@ -1,0 +1,34 @@
+/* common */
+body,
+button,
+input,
+textarea {
+	font-family: "맑은 고딕", "Malgun Gothic", "애플 SD 산돌고딕 Neo",
+		"Apple SD Gothic Neo", sans-serif;
+}
+code[class*="language-"],
+pre[class*="language-"] {
+	font-family: "맑은 고딕", "Malgun Gothic", "애플 SD 산돌고딕 Neo",
+		"Apple SD Gothic Neo", sans-serif;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+ol,
+ul {
+	list-style: none;
+}
+.font-30 {
+	font-size: 30px;
+}
+.mb-2 {
+	margin-bottom: 0 !important;
+}
+.card-body {
+	padding: 1rem 1rem !important;
+}
+.ms-1 {
+	margin-left: 0px !important;
+}
